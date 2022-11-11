@@ -1,0 +1,28 @@
+.custom {
+  background-color: red;
+  transition: 0.3s;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  border: none;
+  text-align: center;
+  margin-right: 25px;
+  width: 80px;
+  color: white;
+}
+
+.custom:hover {
+  background-color: rgb(80, 0, 0);
+  transition: 0.3s;
+}
+
+.modal-login .modal-content {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  color: white;
+}

@@ -1,0 +1,50 @@
+.nav-item .btn-login {
+  margin-right: 0;
+}
+
+.content {
+  padding-top: 40px;
+}
+
+.breadcrumb {
+  margin-left: -11px;
+}
+
+.card-text span,
+p {
+  color: white;
+}
+
+.content i {
+  color: orange;
+}
+
+.desc-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.desc-detail h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: white;
+  margin-top: 20px;
+}
+
+.desc-detail span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: rgb(133, 131, 131);
+}

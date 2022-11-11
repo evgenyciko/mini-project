@@ -1,0 +1,75 @@
+/* mobile */
+@media (max-width: 767.98px) {
+  .card-title h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .card-title p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+
+  .card-header {
+    height: 250px;
+    width: 170px;
+  }
+
+  .card-header img {
+    height: 250px;
+    width: 170px;
+  }
+
+  .card-inner {
+    z-index: 3;
+    color: #000;
+    opacity: 0;
+    transition: 0.5s;
+    position: absolute;
+    width: 170px;
+    height: 250px;
+    padding-top: 80px;
+  }
+
+  .card-button {
+    width: 120px;
+    height: 30px;
+  }
+
+  .card-inner .btn:nth-child(2) {
+    background-color: red;
+    transition: 0.3s;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .card-inner .btn:nth-child(2):hover {
+    background-color: rgb(80, 0, 0);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .card-inner .btn:nth-child(3) {
+    transition: 0.3s;
+    font-family: "Poppins" !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 11px !important;
+    line-height: 20px !important;
+  }
+
+  .splide__arrows {
+    display: none;
+  }
+}

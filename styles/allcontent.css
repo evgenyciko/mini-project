@@ -1,0 +1,18 @@
+.gambar {
+  position: relative;
+  z-index: -1;
+}
+
+.gambar1 {
+  display: inline-block;
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 1) 0%,
+    rgba(184, 141, 50, 0) 15%
+  );
+}
+
+/* .all-content {
+  margin-top: -10rem;
+} */

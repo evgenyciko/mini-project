@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/movie-page.css">
+    <link rel="stylesheet" href="/styles/modal-login.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-transparent navbar-dark position-relative">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/assets/logo.png" alt="Logo" width="87" height="35" class="d-inline-block align-text-top" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            GENRES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            COMING SOON
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn" type="button" id="button-addon2"><i
+                                        class="bi bi-search"></i></button>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-login" href="/" role="button" data-bs-toggle="modal" data-bs-target="#login">
+                            Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- modal login -->
+    <section class="modal-login">
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-login custom">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- end modal login -->
+
+    <!-- breadcumbs -->
+
+    <!-- content -->
+
+    <section class="content">
+        <div class="container">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">Please
+                <strong>Refresh</strong> page if video is can't playing.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="content-wrapper">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Fast and Furious 9</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="content-iframe">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/FUK2kdPsBws" title="YouTube video"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="content-title">
+                    <h1 class="text-light">Fast and Furious 9</h1>
+                                        <p><i class="bi bi-star-fill"></i> 8.7<span
+                                                style="color: #989AAD;">/10</span><span
+                                                style="margin-left: 15px;">122<span style="color: #989AAD;">min</span>
+                                        </p>
+                </div>
+                <hr style="color: white;">
+                <div class="desc-movie">
+                    <div class="desc-wrapper">
+                        <div class="desc-title">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum hic deleniti quasi saepe
+                                in perspiciatis quis nostrum ipsam, ratione at ipsa quaerat culpa reiciendis nemo et
+                                repellendus similique, incidunt dolorum fuga natus labore aliquid officiis placeat. In
+                                quibusdam expedita dolores dolorem saepe debitis qui, velit beatae provident
+                                voluptatibus voluptate temporibus!</p>
+                        </div>
+                        <div class="desc-detail">
+                            <div>
+                                <h1>Director:</h1>
+                                <span>John Doe</span>
+                            </div>
+                            <div>
+                                <h1>Writers:</h1>
+                                <span>John Doe, John Doe, John Doe, John Doe</span>
+                            </div>
+                            <div>
+                                <h1>Stars:</h1>
+                                <span>John Doe, John Doe, John Doe, John Doe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer mt-5 p-4">
+        <div class="container">
+            <div class="">
+                <div class="footer-wrapper d-flex justify-content-center align-items-center flex-column">
+                    <div class="sosmed-icon w-25 h-25 d-flex justify-content-center text-light">
+                        <i class="bi bi-instagram m-2"></i><i class="bi bi-twitter m-2"></i><i
+                            class="bi bi-facebook m-2"></i><i class="bi bi-youtube m-2"></i>
+                    </div>
+                    <div class="footer-title mt-2 d-flex justify-content-center text-light">
+                        <span class="m-3">Conditions of Use</span><span class="m-3">Privacy & Policy</span>
+                        <span class="m-3">Contact Us</span>
+                    </div>
+                    <div class="footer-copyright mt-2 text-center text-light">
+                        <span>© 2022 MovieGatau by Yustinus Novandion Koten</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
