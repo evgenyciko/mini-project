@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="./styles/allcontent.css">
     <link rel="stylesheet" href="./styles/responsive.css">
     <link rel="stylesheet" href="./styles/modal-login.css">
+    <link rel="stylesheet" href="./styles/DOM.css">
 
     <!-- splide slider -->
     <link rel="stylesheet" href="./styles/splide-core.min.css">
@@ -107,12 +108,19 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
-                        <button type="submit" class="btn btn-login custom">Submit</button>
+                        <button onclick="myFunction()" type="submit" class="btn btn-login custom">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <div class="container-fluid aw">
+        <div class="alert alert-primary my-alert" role="alert" id="myAlert">
+            A simple primary alert—check it out!
+        </div>
+    </div>
 
 
     <!-- end modal login -->
@@ -2100,6 +2108,11 @@
         <!-- End Asian movies Section -->
     </section>
 
+
+
+    <div class="container">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-double-up"></i></button>
+    </div>
     <!-- footer -->
 
     <section class="footer mt-5 p-4">
@@ -2126,7 +2139,6 @@
 
 
 
-
     <!-- scripts -->
 
     <script src="./scripts/bootstrap.js"></script>
@@ -2135,6 +2147,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
     </script>
     <script src="./scripts/autostop.js"></script>
+    <script src="./scripts/jsDom.js"></script>
+    <script src="./scripts/scroolToTop.js"></script>
+    <script src="./scripts/alertDisappear.js"></script>
 
     <!-- end scripts -->
 </body>
